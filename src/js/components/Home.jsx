@@ -41,9 +41,9 @@ export function Home() {
 		}, [state,color, showPurple]);
 	return (
 		<div className="container">
-			<div className='semaforo'>
-				<div className="palo"></div>
-				<div className="colores">
+			<div>
+				<div className="pole"></div>
+				<div className="colors">
 					<Color 
 					color={(red)? "rgba(233, 11, 11, 0.88)": " rgba(131, 16, 16, 0.88)" }
 					onClick={() => {
