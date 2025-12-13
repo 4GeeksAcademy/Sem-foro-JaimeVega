@@ -9,3 +9,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: #24242444;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.semaforo{
+    height: 550px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.palo {
+    height: 100px;
+    width: 40px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.color {
+    background-color: red;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    
+    
+}
